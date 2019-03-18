@@ -83,6 +83,10 @@ def can_update_using_update_method
   movie = Movie.create(title: "Wat?")
   Movie.find_by(title: "Wat")
   Movie.update(title: "Wat, huh?")
+  
+  
+user = User.find_by(name: 'David')
+user.update(name: 'Dave')
   __
   __
 end
