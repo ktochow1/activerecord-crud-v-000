@@ -85,8 +85,8 @@ def can_update_using_update_method
   movie.update(title: "Wat, huh?")
   
   
-user = User.find_by(name: 'David')
-user.update(name: 'Dave')
+# user = User.find_by(name: 'David')
+# user.update(name: 'Dave')
   __
   __
 end
