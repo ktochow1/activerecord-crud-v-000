@@ -88,7 +88,9 @@ def can_update_multiple_items_at_once
   5.times do |i|
     Movie.create(title: "Movie_#{i}", release_date: 2000+i)
   end
+  Movie.update_all 
  
+# User.update_all "max_login_attempts = 3, must_change_password = 'true'"
   # __
 end
 
