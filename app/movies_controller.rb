@@ -87,8 +87,8 @@ def can_update_using_update_method
   
 # user = User.find_by(name: 'David')
 # user.update(name: 'Dave')
-  __
-  __
+  # __
+  # __
 end
 
 def can_update_multiple_items_at_once
